@@ -15,4 +15,12 @@ public class HelloController {
 
         return  "  hi   cicd   ^^^^^";
     }
+
+
+    @ResponseBody
+    @GetMapping("/hi2")
+    public String  hi2(){
+
+        return  "  hi2   ^^^^^^^";
+    }
 }
